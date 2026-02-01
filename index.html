@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Taquería El Chayo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <div class="nav-logo">Taquería El Chayo</div>
+    <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#about">Quiénes Somos</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#contact">Contacto</a></li>
+    </ul>
+</nav>
+
+<!-- ================= PORTADA ================= -->
+<header class="hero" id="inicio">
+    <video autoplay muted loop playsinline class="hero-video">
+        <!-- AQUÍ PEGA LA RUTA DE TU VIDEO -->
+        <source src="images_taqueria/video_hero.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h1>Taquería El Chayo</h1>
+        <p>• 100% TAQUITOS •</p>
+        <a href="#menu" class="nolink">Ver Menú</a>
+    </div>
+</header>
+
+<!-- ================= QUIÉNES SOMOS ================= -->
+<section class="section about" id="about">
+    <div class="container about-grid">
+        <div class="about-text">
+            <h2>¿Quiénes Somos?</h2>
+            <p>
+                ¡En <strong>la Taquería El Chayo</strong> llévate Carne al Pastor, Bistec y Chuleta, en tacos, tortas
+                gringas, nachos, frijoles charros y más! 
+            </p>
+            <p>
+                Vendemos tacos, gringas, tortas y experiencias que se quedan en la memoria.
+            </p>
+        </div>
+
+        <div class="about-images">
+            <div class="img-box">
+                <img src="images_taqueria/lobby_foto.jpeg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= MENU ================= -->
+<section class="section menu" id="menu">
+    <h2 class="section-title">Nuestro Menú</h2>
+
+    <div class="menu-slider">
+        <div class="menu-track" id="menuTrack">
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images_taqueria/tacos.jpeg">
+                </div>
+                <div class="menu-info">
+                    <h3>Tacos</h3>
+                    <p>Desde $18 MXN</p>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images_taqueria/nachos.jpeg">
+                </div>
+                <div class="menu-info">
+                    <h3>Nachos</h3>
+                    <p>Desde $125 MXN</p>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images_taqueria/burrito.jpeg">
+                </div>
+                <div class="menu-info">
+                    <h3>Burritos</h3>
+                    <p>Desde $115 MXN</p>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images_taqueria/torta.jpeg">
+                </div>
+                <div class="menu-info">
+                    <h3>Tortas</h3>
+                    <p>Desde $38 MXN</p>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-img">
+                    <img src="images_taqueria/nachos_familiar.jpeg">
+                </div>
+                <div class="menu-info">
+                    <h3>Nachos Familiar</h3>
+                    <p>Desde $250 MXN</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= MENÚ COMPLETO (PDF) ================= -->
+<section class="section menu-pdf">
+    <div class="pdf-card">
+        <div class="pdf-info">
+            <h2>Menú Completo</h2>
+            <p>
+                Consulta nuestro menú completo con todos nuestros platillos,
+                precios y promociones especiales.
+            </p>
+
+            <a href="pdf/Menú Completo.pdf" target="_blank" class="pdf-btn">
+                Ver menú en PDF
+            </a>
+        </div>
+
+        <div class="pdf-icon">
+            📄
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section class="section contact" id="contact">
+    <h2>Contacto</h2>
+    <p>📍 Plaza caliza local 4 calle 56 # 514 por 17 B Gran Calzada</p>
+    <p>🕠 5:30 PM - 12 PM</p>
+    <p>📞 +52 999 691 1416</p>
+</section>
+
+<section class="section map-section">
+    <h2 class="section-title">Nuestra Ubicación</h2>
+
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.786972297979!2d-89.71509189999999!3d20.920888599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f560d001d3d976f%3A0x21b946069bef07f6!2sTaquer%C3%ADa%20el%20chayo!5e0!3m2!1ses-419!2smx!4v1769896659252!5m2!1ses-419!2smx"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Taquería El Chayo | Hermen Steven</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
