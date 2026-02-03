@@ -344,3 +344,177 @@ footer {
     padding: 30px;
     background: #000;
 }
+
+
+
+/* ==================================================
+   Implementaciones para Celular
+   ================================================== */
+
+/* ==================================================
+   SISTEMA DE COLUMNAS RESPONSIVO
+   ================================================== */
+
+/* Desktop (12 columnas) */
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* Tablet (8 columnas) */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* Mobile (4 columnas) */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+
+/* ==================================================
+   NAVBAR RESPONSIVO
+   ================================================== */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 16px 6%;
+    }
+
+    .nav-links {
+        gap: 18px;
+        font-size: 0.9rem;
+    }
+}
+
+/* ==================================================
+   HERO RESPONSIVO
+   ================================================== */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .hero-content a {
+        margin-top: 20px;
+        padding: 12px 28px;
+    }
+}
+
+/* ==================================================
+   ABOUT RESPONSIVO
+   ================================================== */
+@media (max-width: 1024px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+/* ==================================================
+   MENÚ RESPONSIVO
+   ================================================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .menu-card {
+        min-width: 240px;
+    }
+
+    .menu-img {
+        height: 170px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+    .menu-slider {
+        padding: 40px 0;
+    }
+
+    .menu-card {
+        min-width: 200px;
+        border-radius: 18px;
+    }
+
+    .menu-img {
+        height: 140px;
+    }
+
+    .menu-info h3 {
+        font-size: 1rem;
+    }
+
+    .menu-info p {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* ==================================================
+   MENÚ PDF RESPONSIVO (MEJORADO)
+   ================================================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .pdf-card {
+        padding: 50px;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .pdf-icon {
+        display: none;
+    }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+    .pdf-card {
+        padding: 40px 28px;
+        border-radius: 22px;
+    }
+
+    .pdf-info h2 {
+        font-size: 1.8rem;
+    }
+
+    .pdf-info p {
+        font-size: 0.95rem;
+    }
+
+    .pdf-btn {
+        width: 100%;
+        text-align: center;
+        padding: 14px;
+    }
+}
+
+
+/* ==================================================
+   MAPA RESPONSIVO
+   ================================================== */
+@media (max-width: 768px) {
+    .map-container iframe {
+        height: 300px;
+    }
+}
+
+
+/* ==================================================
+   ESPACIADO GENERAL RESPONSIVO
+   ================================================== */
+@media (max-width: 768px) {
+    .section {
+        padding: 90px 6%;
+    }
+}
+
